@@ -7,12 +7,12 @@
     <title>JMCServiciosEléctricos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link rel="stylesheet" href="./styles.css">
-    </head>
+    <link rel="stylesheet" href="./styles.css">
+</head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">JMCSE</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -25,7 +25,7 @@
                             <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Trabajos</a>
+                            <a class="nav-link" href="#nuestros">Trabajos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Demas</a>
@@ -39,33 +39,49 @@
         </nav>
 
     </header>
-    <main id="primera">
+    <main id="primera" class="mt-5">
         <!-- Boton de whatsapp -->
         <a href="https://wa.me/1149271249" class="d-flex align-text-left botonfl">
-            <img src="./img/Whatsapp.png" alt="" >    
-    </a>
-         <div class="row text-center">
-        <h2 >JMC Servicios Eléctricos</h2>
-        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae numquam suscipit ab exercitationem praesentium repellendus culpa tempora quisquam quos impedit. Reprehenderit culpa assumenda consequuntur nemo libero totam, error et quasi.</h4>
-    
-    </div>
-    <div class="row text-center segunda">
-        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vel, earum ullam voluptatum, ducimus aperiam dignissimos, placeat perspiciatis quis in accusamus. Laboriosam quidem nulla unde laborum. Sequi harum amet reiciendis!</h4>
-    </div>
-<div class="row" id="nuestros">
-    <h3 class="text-center">Nuestros trabajos</h3>
-    <div class="col-6">
-    <img src="./img/ba1.jpg" height="500px" alt="">
-</div>
-<div class="col-6">
-    <img src="./img/ba2.jpg" height="500px" alt="">
-</div>
-<div class="row">
-    <p><strong>Servicio 1:</strong></br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-</div>
-</div>
-        
-        
+            <img src="./img/Whatsapp.png" alt="">
+        </a>
+        <div class="row text-center pt-2">
+            <h2>JMC Servicios Eléctricos</h2>
+            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae numquam suscipit ab exercitationem
+                praesentium repellendus culpa tempora quisquam quos impedit. Reprehenderit culpa assumenda consequuntur
+                nemo libero totam, error et quasi.</h4>
+
+        </div>
+        <div class="row text-center segunda">
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vel, earum ullam voluptatum, ducimus
+                aperiam dignissimos, placeat perspiciatis quis in accusamus. Laboriosam quidem nulla unde laborum. Sequi
+                harum amet reiciendis!</h4>
+        </div>
+        <div class="row" id="nuestros">
+            <h3 class="text-center">Nuestros trabajos</h3>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/ba1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/ba2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/ba3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+
+
 
     </main>
     <footer>
